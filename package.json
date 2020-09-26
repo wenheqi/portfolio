@@ -4,8 +4,8 @@
   "description": "Wenhe's portfolio built with Gatsby and Node.js",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir public && cd gatsby-portfolio && gatsby build && cp -a public ..",
-    "clean": "rm -rf public && cd gatsby-portfolio && gatsby clean",
+    "build": "mkdir public && cd gatsby-portfolio && yarn build && cp -a public ..",
+    "clean": "rm -rf public && cd gatsby-portfolio && yarn clean",
     "deploy": "serverless deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
